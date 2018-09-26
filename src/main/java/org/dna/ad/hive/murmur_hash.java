@@ -14,21 +14,7 @@ import org.apache.hadoop.hive.serde2.objectinspector.ObjectInspector;
 import org.apache.hadoop.hive.serde2.objectinspector.primitive.PrimitiveObjectInspectorFactory;
 import org.apache.hadoop.hive.serde2.objectinspector.primitive.StringObjectInspector;
 import org.apache.hadoop.io.Text;
-/**
- * Murmur hash 2.0.
- *
- * The murmur hash is a relative fast hash function from
- * http://murmurhash.googlepages.com/ for platforms with efficient
- * multiplication.
- *
- * This is a re-implementation of the original C code plus some additional
- * features.
- *
- * Public domain.
- *
- * @author Viliam Holub
- * @version 1.0.2
- */
+
 public class murmur_hash extends GenericUDF{
 
 
